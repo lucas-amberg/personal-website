@@ -1,6 +1,6 @@
 import {Fade, Slide} from "react-awesome-reveal"
 import '../styles/who-am-i.css'
-import logo from '/logo.jpg'
+import me from '../assets/images/me.jpg'
 
 
 function WhoAmI() {
@@ -17,7 +17,7 @@ function WhoAmI() {
                             <div>I have been coding for 4 years, since my Sophomore year of high school. When I am not
                                 at school, I am based in <span className="who-important">San Diego County, California</span>.
                             </div>
-                            <img src={logo} alt="" />
+                            <img src={me} alt="" />
                         </div>
                     </div>
                 </Fade>

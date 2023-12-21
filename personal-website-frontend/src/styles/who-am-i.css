@@ -52,6 +52,7 @@
     color: var(--light-color);
     gap: 20px;
     line-height: 120%;
+    padding-bottom: 20px;
 }
 
 .who-important {
@@ -59,7 +60,7 @@
 }
 
 .who-info img {
-    width: 80px;
-    height: 80px;
+    width: 200px;
     align-self: center;
+    border-radius: 20px;
 }

@@ -1,0 +1,85 @@
+:root {
+    --light-color: #c1c1c1;
+    --third-color: #222222;
+    --dark-color: #111111;
+}
+
+@font-face {
+    font-family: "OpenSansBold";
+    src: url('../assets/fonts/Open_sans/OpenSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: "OpenSansMedium";
+    src: url('../assets/fonts/Open_sans/OpenSans-Medium.ttf');
+}
+
+@font-face {
+    font-family: "OpenSansLight";
+    src: url('../assets/fonts/Open_sans/OpenSans_Condensed-Light.ttf');
+}
+
+.portfolio {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.portfolio-item img {
+    width: 120px;
+    height: 65px;
+    border-radius: 15px;
+    align-self: flex-start;
+}
+
+.portfolio-items {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.portfolio h1 {
+    font-family: "OpenSansBold";
+    color: var(--light-color);
+    font-size: 2rem;
+}
+
+.portfolio-item {
+    display: flex;
+    width: 300px;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--light-color);
+    gap: 15px;
+}
+
+.item-tech {
+    font-family: "OpenSansMedium";
+}
+
+.item-title {
+    color: var(--light-color);
+    font-family: "OpenSansBold";
+    font-size: 1.2rem;
+}
+
+.item-link {
+    color: green;
+    text-decoration: none;
+    font-family: "OpenSansBold";
+    font-size: 0.9rem;
+}
+
+.item-description {
+    font-family: "OpenSansMedium";
+    font-size: 0.9rem;
+}
+
+.portfolio-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
