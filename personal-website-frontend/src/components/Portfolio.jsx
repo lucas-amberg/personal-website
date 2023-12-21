@@ -26,7 +26,7 @@ const toDoDescription = 'To Do List application with browser storage capabilitie
 
 function Portfolio() {
     return(
-        <Fade>
+        <Fade cascade>
             <div className='portfolio'>
                 <h1>Portfolio Projects</h1>
                 <div className='portfolio-items'>

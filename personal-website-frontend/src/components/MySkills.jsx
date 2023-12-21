@@ -8,7 +8,7 @@ import reactImg from '../assets/images/logos/react.png'
 function MySkills() {
     return(
         <div className='skills-container'>
-                <Fade direction='right' cascade duration={2000}>
+                <Fade direction='right' cascade>
                     <div className='skills'>
                         <div className='skills-title'>My Skills</div>
                         <div className='great-with'>
