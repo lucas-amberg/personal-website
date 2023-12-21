@@ -1,0 +1,57 @@
+:root {
+    --light-color: #c1c1c1;
+    --third-color: #222222;
+    --dark-color: #111111;
+}
+
+@font-face {
+    font-family: "OpenSansBold";
+    src: url('../assets/fonts/Open_sans/OpenSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: "OpenSansMedium";
+    src: url('../assets/fonts/Open_sans/OpenSans-Medium.ttf');
+}
+
+@font-face {
+    font-family: "OpenSansLight";
+    src: url('../assets/fonts/Open_sans/OpenSans_Condensed-Light.ttf');
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 100vh;
+    place-items: center;
+}
+
+.logo-item {
+    display: flex;
+    width: 300px;
+    align-items: center;
+    justify-content: space-around;
+    /* animation: fadeInAnimation ease 2s; */
+    flex-direction: column;
+    gap: 20px;
+}
+
+.logo-item div {
+    color: var(--light-color);
+    font-family: "OpenSansBold";
+    font-size: 2rem;
+    
+}
+
+.logo-item img {
+    width: 80px;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
