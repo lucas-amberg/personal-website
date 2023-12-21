@@ -83,3 +83,21 @@
     flex-direction: column;
     gap: 5px;
 }
+
+@media only screen and (min-width: 480px) {
+    .portfolio-item {
+        width: 400px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 992px) {
+
+}
+
+@media only screen and (min-width: 1200px) {
+  
+}

@@ -95,3 +95,24 @@
 .images img {
     height: 60px;
 }
+
+@media only screen and (min-width: 480px) {
+    .skills {
+        grid-template-columns: 200px 200px;
+    }
+    .images img {
+        height: 80px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 992px) {
+
+}
+
+@media only screen and (min-width: 1200px) {
+  
+}

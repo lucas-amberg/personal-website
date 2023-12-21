@@ -35,9 +35,11 @@ function MySkills() {
                             </ul>
                         </div>
                         <div className='images'>
-                            <img src={reactImg} alt='React Developer' />
-                            <img src={pythonImg} alt="Python Developer" />
-                            <img src={jsImg} alt="JavaScript Developer" />
+                            <Fade cascade direction='up' damping={0.2}>
+                                <img src={reactImg} alt='React Developer' />
+                                <img src={pythonImg} alt="Python Developer" />
+                                <img src={jsImg} alt="JavaScript Developer" />
+                            </Fade>
                         </div>
                     </div>
                 </Fade>
