@@ -6,8 +6,7 @@ import logo from '/logo.jpg'
 function WhoAmI() {
     return(
         <div className="who-am-i">
-            <Slide >
-                <Fade fraction={0.3} duration={2000} cascade={true} damping={0.1}>
+                <Fade direction='left' cascade duration={2000}>
                     <div className="who-container">
                         <div className="who-title">Who Am I?</div>
                         <div className="who-info">
@@ -22,7 +21,6 @@ function WhoAmI() {
                         </div>
                     </div>
                 </Fade>
-            </Slide>
         </div>
     )
 }

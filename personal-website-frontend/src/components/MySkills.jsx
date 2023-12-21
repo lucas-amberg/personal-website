@@ -4,7 +4,6 @@ import '../styles/my-skills.css'
 function MySkills() {
     return(
         <div className='skills-container'>
-            <Slide direction='right'>
                 <Fade direction='right' cascade duration={2000}>
                     <div className='skills'>
                         <div className='skills-title'>My Skills</div>
@@ -33,7 +32,6 @@ function MySkills() {
                         </div>
                     </div>
                 </Fade>
-            </Slide>
         </div>
     )
 }
