@@ -1,0 +1,66 @@
+:root {
+    --light-color: #c1c1c1;
+    --third-color: #222222;
+    --dark-color: #111111;
+}
+
+@font-face {
+    font-family: "OpenSansBold";
+    src: url('../assets/fonts/Open_sans/OpenSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: "OpenSansMedium";
+    src: url('../assets/fonts/Open_sans/OpenSans-Medium.ttf');
+}
+
+@font-face {
+    font-family: "OpenSansLight";
+    src: url('../assets/fonts/Open_sans/OpenSans_Condensed-Light.ttf');
+}
+
+.contact-container {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.contact-container h1 {
+    font-family: "OpenSansBold";
+    color: var(--light-color);
+    font-size: 2rem;
+}
+
+.contact-item {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--third-color);
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.contact-item img {
+    height: 60px;
+    margin-right: auto;
+}
+
+.contact-info {
+    font-family: "OpenSansBold";
+    color: var(--light-color);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: var(--light-color);
+    font-family: "OpenSansMedium";
+    font-size: 1rem;
+}
