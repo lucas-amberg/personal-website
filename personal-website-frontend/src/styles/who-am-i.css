@@ -1,0 +1,65 @@
+:root {
+    --light-color: #c1c1c1;
+    --third-color: #222222;
+    --dark-color: #111111;
+}
+
+@font-face {
+    font-family: "OpenSansBold";
+    src: url('../assets/fonts/Open_sans/OpenSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: "OpenSansMedium";
+    src: url('../assets/fonts/Open_sans/OpenSans-Medium.ttf');
+}
+
+@font-face {
+    font-family: "OpenSansLight";
+    src: url('../assets/fonts/Open_sans/OpenSans_Condensed-Light.ttf');
+}
+
+.who-am-i {
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 100vh;
+    place-items: center;
+}
+
+.who-container {
+    display: grid;
+    grid-template-columns: 260px;
+    grid-template-rows: 100px auto;
+    background-color: var(--third-color);
+    border-radius: 20px;
+    justify-items: center;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.who-title {
+    font-family: "OpenSansBold";
+    color: var(--light-color);
+    align-self: center;
+    font-size: 2rem;
+}
+
+.who-info {
+    display: flex;
+    flex-direction: column;
+    font-family: "OpenSansMedium";
+    color: var(--light-color);
+    gap: 20px;
+    line-height: 120%;
+}
+
+.who-important {
+    color: green;
+}
+
+.who-info img {
+    width: 80px;
+    height: 80px;
+    align-self: center;
+}
