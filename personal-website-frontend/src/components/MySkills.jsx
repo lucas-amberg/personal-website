@@ -1,5 +1,9 @@
 import {Fade, Slide} from 'react-awesome-reveal'
 import '../styles/my-skills.css'
+import pythonImg from '../assets/images/logos/python.svg'
+import jsImg from '../assets/images/logos/javascript.png'
+import reactImg from '../assets/images/logos/react.png'
+
 
 function MySkills() {
     return(
@@ -29,6 +33,11 @@ function MySkills() {
                                 <li>RESTful APIs</li>
                                 <li>Express</li>
                             </ul>
+                        </div>
+                        <div className='images'>
+                            <img src={reactImg} alt='React Developer' />
+                            <img src={pythonImg} alt="Python Developer" />
+                            <img src={jsImg} alt="JavaScript Developer" />
                         </div>
                     </div>
                 </Fade>
