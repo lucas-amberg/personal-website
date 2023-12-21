@@ -1,0 +1,83 @@
+:root {
+    --light-color: #c1c1c1;
+    --third-color: #222222;
+    --dark-color: #111111;
+}
+
+@font-face {
+    font-family: "OpenSansBold";
+    src: url('../assets/fonts/Open_sans/OpenSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: "OpenSansMedium";
+    src: url('../assets/fonts/Open_sans/OpenSans-Medium.ttf');
+}
+
+@font-face {
+    font-family: "OpenSansLight";
+    src: url('../assets/fonts/Open_sans/OpenSans_Condensed-Light.ttf');
+}
+
+.work-experience-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.work-experience-container h1 {
+    color: var(--light-color);
+    font-family: "OpenSansBold";
+    font-size: 2rem;
+}
+
+.job-title img {
+    width: 65px;
+    height: 65px;
+    border-radius: 5px;
+}
+
+.job-item {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--third-color);
+    border-radius: 20px;
+    padding: 10px;
+    width: 350px;
+}
+.job-title {
+    display: flex;
+}
+
+.job-name {
+    font-size: 1.2rem;
+    font-family: "OpenSansBold";
+    color: var(--light-color);
+} 
+
+.job-title div {
+    color: var(--light-color);
+    font-family: "OpenSansBold";
+}
+
+.job-title-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.location-date {
+    color: var(--light-color);
+    font-family: "OpenSansMedium";
+    font-size: 0.9rem;
+}
+
+.job-description {
+    color: var(--light-color);
+    font-family: "OpenSansMedium";
+    font-size: 0.8rem;
+    padding: 5px;
+}

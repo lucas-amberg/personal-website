@@ -54,5 +54,5 @@ table {
     overflow-x: hidden;
     background-color: var(--dark-color);
     display: grid;
-    grid-template-rows: 100vh 100vh 100vh 100vh;
+    grid-template-rows: 100vh 100vh 100vh 100vh 100vh;
 }
