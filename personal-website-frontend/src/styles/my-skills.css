@@ -1,0 +1,84 @@
+:root {
+    --light-color: #c1c1c1;
+    --third-color: #222222;
+    --dark-color: #111111;
+}
+
+@font-face {
+    font-family: "OpenSansBold";
+    src: url('../assets/fonts/Open_sans/OpenSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: "OpenSansMedium";
+    src: url('../assets/fonts/Open_sans/OpenSans-Medium.ttf');
+}
+
+@font-face {
+    font-family: "OpenSansLight";
+    src: url('../assets/fonts/Open_sans/OpenSans_Condensed-Light.ttf');
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 100vh;
+    place-items: center;
+   
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 100px 300px;
+    grid-template-areas: "header header"
+                        "great-with comfortable-with";
+    background-color: var(--third-color);
+    justify-items: center;
+    padding: 5px;
+    border-radius: 20px;
+    font-family: "OpenSansBold";
+}
+
+.title {
+    color: green;
+    font-family: "OpenSansBold";
+    font-size: 1.2rem;
+}
+
+.great-with {
+    grid-area: great-with;
+    font-size: 1rem;
+    text-align: center;
+    font-family: "OpenSansMedium";
+    color: var(--light-color);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.skills-title {
+    grid-area: header;
+    font-family: "OpenSansBold";
+    color: var(--light-color);
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+.comfortable-with {
+    grid-area: comfortable-with;
+    font-size: 1rem;
+    text-align: center;
+    font-family: "OpenSansMedium";
+    color: var(--light-color);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.comfortable-with ul,
+.great-with ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

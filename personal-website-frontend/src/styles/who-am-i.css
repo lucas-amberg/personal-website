@@ -28,7 +28,7 @@
 
 .who-container {
     display: grid;
-    grid-template-columns: 260px;
+    grid-template-columns: 265px;
     grid-template-rows: 100px auto;
     background-color: var(--third-color);
     border-radius: 20px;
