@@ -14,13 +14,13 @@ function ContactItem({image, platform, link, direction, type}) {
 
     return(
         <Fade direction={direction}>
-            <div className='contact-item'>
+            <a href={realLink} target="_blank" className='contact-item'>
                 <img src={image} alt={platform} />
                 <div className='contact-info'>
                     <div>{platform}</div>
                     <a href={realLink}>{link}</a>
                 </div>
-            </div>
+            </a>
         </Fade>
     )
 }

@@ -33,9 +33,16 @@
     background-color: var(--third-color);
     border-radius: 20px;
     justify-items: center;
+    align-items: center;
     padding: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
+    transition: all ease 0.4s;
+}
+
+.who-container:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 30px rgba(0, 255, 0, 0.3);
 }
 
 .who-title {
@@ -63,4 +70,22 @@
     width: 200px;
     align-self: center;
     border-radius: 20px;
+}
+
+@media only screen and (min-width: 480px) {
+    .who-container {
+        grid-template-columns: 400px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 992px) {
+
+}
+
+@media only screen and (min-width: 1200px) {
+  
 }

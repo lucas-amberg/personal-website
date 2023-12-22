@@ -8,7 +8,7 @@ import reactImg from '../assets/images/logos/react.png'
 function MySkills() {
     return(
         <div className='skills-container'>
-                <Fade direction='right' cascade duration={2000}>
+                <Fade direction='right' cascade>
                     <div className='skills'>
                         <div className='skills-title'>My Skills</div>
                         <div className='great-with'>
@@ -35,9 +35,11 @@ function MySkills() {
                             </ul>
                         </div>
                         <div className='images'>
-                            <img src={reactImg} alt='React Developer' />
-                            <img src={pythonImg} alt="Python Developer" />
-                            <img src={jsImg} alt="JavaScript Developer" />
+                            <Fade cascade direction='up' damping={0.2}>
+                                <img src={reactImg} alt='React Developer' />
+                                <img src={pythonImg} alt="Python Developer" />
+                                <img src={jsImg} alt="JavaScript Developer" />
+                            </Fade>
                         </div>
                     </div>
                 </Fade>
