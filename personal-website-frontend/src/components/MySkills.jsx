@@ -32,6 +32,8 @@ function MySkills() {
                                 <li>Docker</li>
                                 <li>RESTful APIs</li>
                                 <li>Express</li>
+                                <li>Next.js</li>
+                                <li>TypeScript</li>
                             </ul>
                         </div>
                         <div className='images'>
