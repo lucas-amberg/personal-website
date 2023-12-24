@@ -9,3 +9,6 @@ This is my personal website and developer portfolio
 ## Back End Technologies:
 * Node.js
 * Express
+## Application Hosting:
+* Docker
+* Fly.io
