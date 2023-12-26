@@ -34,7 +34,7 @@ function Portfolio() {
                 <h1>Portfolio Projects</h1>
                 <div className='portfolio-items'>
                     <PortfolioItem img={rhaptecImage} dir='left' title={'Rhaptec Website'} tech={'React, CSS, Node.js, Express'} description={rhaptecDescription} link={'rhaptec-dev.fly.dev'} />
-                    <PortfolioItem img={weatherAppImage} dir='right' title={'Weather App'} tech={'Next.js, Tailwind CSS'} description={weatherAppDescription} link={'https://weather-app-two-alpha-12.vercel.app'}/>
+                    <PortfolioItem img={weatherAppImage} dir='right' title={'Weather App'} tech={'Next.js, Tailwind CSS'} description={weatherAppDescription} link={'weather-app-two-alpha-12.vercel.app'}/>
                     <PortfolioItem img={toDoImage} dir='left' title={'To Do List'} tech={'JavaScript, HTML, CSS'} description={toDoDescription} link={'lucas-amberg.github.io/to-do-list'} />
                     <PortfolioItem img={ticTacToeImage} dir='right' title='Tic Tac Toe' tech='JavaScript, HTML, CSS' description={ticTacToeDescription} link='lucas-amberg.github.io/tic-tac-toe' />
                 </div>
