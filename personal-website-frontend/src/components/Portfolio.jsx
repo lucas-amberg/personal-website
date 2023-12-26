@@ -3,6 +3,7 @@ import '../styles/portfolio.css'
 import rhaptecImage from '../assets/images/portfolio-images/rhaptec-image.png'
 import toDoImage from '../assets/images/portfolio-images/to-do-image.png'
 import ticTacToeImage from '../assets/images/portfolio-images/tic-tac-toe.png'
+import weatherAppImage from '../assets/images/portfolio-images/weather-app.png'
 
 function PortfolioItem({img, title, description, tech, alt, link, dir}) {
 
@@ -21,9 +22,10 @@ function PortfolioItem({img, title, description, tech, alt, link, dir}) {
     )
 }
 
-const rhaptecDescription = 'Website I created for a client and his manufacturing company, Rhaptec.'
+const rhaptecDescription = 'Website I created for a client and his manufacturing company, Rhaptec, showcasing my ability in JavaScript in all areas of the stack.'
 const toDoDescription = 'To Do List application with browser storage capabilities utilizing JS, HTML, and CSS.'
 const ticTacToeDescription = 'Mobile and Desktop friendly Tic Tac Toe game with custom name features and beautiful styling.'
+const weatherAppDescription = 'User friendly weather app which utilizes Weather and Geocoding APIs to show you current and future weather information for any city.'
 
 function Portfolio() {
     return(
@@ -32,8 +34,9 @@ function Portfolio() {
                 <h1>Portfolio Projects</h1>
                 <div className='portfolio-items'>
                     <PortfolioItem img={rhaptecImage} dir='left' title={'Rhaptec Website'} tech={'React, CSS, Node.js, Express'} description={rhaptecDescription} link={'rhaptec-dev.fly.dev'} />
-                    <PortfolioItem img={toDoImage} dir='right' title={'To Do List'} tech={'JavaScript, HTML, CSS'} description={toDoDescription} link={'lucas-amberg.github.io/to-do-list'} />
-                    <PortfolioItem img={ticTacToeImage} dir='left' title='Tic Tac Toe' tech='JavaScript, HTML, CSS' description={ticTacToeDescription} link='lucas-amberg.github.io/tic-tac-toe' />
+                    <PortfolioItem img={weatherAppImage} dir='right' title={'Weather App'} tech={'Next.js, Tailwind CSS'} description={weatherAppDescription} link={'https://weather-app-two-alpha-12.vercel.app'}/>
+                    <PortfolioItem img={toDoImage} dir='left' title={'To Do List'} tech={'JavaScript, HTML, CSS'} description={toDoDescription} link={'lucas-amberg.github.io/to-do-list'} />
+                    <PortfolioItem img={ticTacToeImage} dir='right' title='Tic Tac Toe' tech='JavaScript, HTML, CSS' description={ticTacToeDescription} link='lucas-amberg.github.io/tic-tac-toe' />
                 </div>
             </div>
         </Fade>
