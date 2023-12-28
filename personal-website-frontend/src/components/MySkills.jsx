@@ -29,7 +29,6 @@ function MySkills() {
                                 <li>Node.js</li>
                                 <li>Linux</li>
                                 <li>MongoDB</li>
-                                <li>Docker</li>
                                 <li>RESTful APIs</li>
                                 <li>Express</li>
                                 <li>Next.js</li>
