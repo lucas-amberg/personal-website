@@ -3,6 +3,7 @@ import '../styles/my-skills.css'
 import pythonImg from '../assets/images/logos/python.svg'
 import jsImg from '../assets/images/logos/javascript.png'
 import reactImg from '../assets/images/logos/react.png'
+import cppImg from '../assets/images/logos/cpp.png'
 
 
 function MySkills() {
@@ -16,7 +17,7 @@ function MySkills() {
                             <ul>
                                 <li>JavaScript</li>
                                 <li>React.js</li>
-                                <li>CSS</li>
+                                <li>CSS (Tailwind & Vanilla)</li>
                                 <li>HTML</li>
                                 <li>Python</li>
                                 <li>Full Stack Web Development</li>
@@ -27,6 +28,7 @@ function MySkills() {
                             <div className='title'>Versed In</div>
                             <ul>
                                 <li>Node.js</li>
+                                <li>C++</li>
                                 <li>Linux</li>
                                 <li>MongoDB</li>
                                 <li>RESTful APIs</li>
@@ -40,6 +42,7 @@ function MySkills() {
                                 <img src={reactImg} alt='React Developer' />
                                 <img src={pythonImg} alt="Python Developer" />
                                 <img src={jsImg} alt="JavaScript Developer" />
+                                <img src={cppImg} alt="C++ Developer"/>
                             </Fade>
                         </div>
                     </div>
