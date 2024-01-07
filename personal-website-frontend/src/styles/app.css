@@ -55,5 +55,5 @@ table {
     background-color: var(--dark-color);
     display: grid;
 		align-items: center;
-    grid-template-rows: 100vh 100vh 100vh 220vh 100vh;
+    grid-template-rows: 100vh 100vh 100vh 250vh 100vh;
 }
