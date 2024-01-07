@@ -44,11 +44,11 @@
 
 .skills:hover {
     cursor: pointer;
-    box-shadow: 0px 0px 30px rgba(0, 255, 0, 0.3);
+    box-shadow: 0px 0px 30px rgba(135, 0, 198, 0.3);
 }
 
 .title {
-    color: green;
+    color: rgba(135, 0, 198, 1);
     font-family: "OpenSansBold";
     font-size: 1.2rem;
 }

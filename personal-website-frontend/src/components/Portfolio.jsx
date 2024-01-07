@@ -31,7 +31,6 @@ const restaurantDescription = 'Eye catching full stack restaurant page using Nex
 
 function Portfolio() {
     return(
-        <Fade cascade>
             <div className='portfolio'>
                 <h1>Portfolio Projects</h1>
                 <div className='portfolio-items'>
@@ -39,10 +38,9 @@ function Portfolio() {
                     <PortfolioItem img={weatherAppImage} dir='right' title={'Weather App'} tech={'Next.js (TypeScript), Tailwind CSS'} description={weatherAppDescription} link={'weather-app-two-alpha-12.vercel.app'}/>
                     <PortfolioItem img={toDoImage} dir='left' title={'To Do List'} tech={'JavaScript, HTML, CSS'} description={toDoDescription} link={'lucas-amberg.github.io/to-do-list'} />
                     <PortfolioItem img={ticTacToeImage} dir='right' title='Tic Tac Toe' tech='JavaScript, HTML, CSS' description={ticTacToeDescription} link='lucas-amberg.github.io/tic-tac-toe' />
-                    <PortfolioItem img={restaurantImage} dir='left' description={restaurantDescription} title='Restaurant Page' tech='Next.js (TypeScript), TailwindCSS, PostgreSQL, Vercel' link='https://next-restaurant-weld.vercel.app'/>
+                    <PortfolioItem img={restaurantImage} dir='left' description={restaurantDescription} title='Restaurant Page' tech='Next.js (TypeScript), TailwindCSS, PostgreSQL, Vercel' link='next-restaurant-weld.vercel.app'/>
                 </div>
             </div>
-        </Fade>
     )
 }
 

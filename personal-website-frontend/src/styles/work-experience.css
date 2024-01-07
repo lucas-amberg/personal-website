@@ -52,7 +52,7 @@
 
 .job-item:hover {
     cursor: pointer;
-    box-shadow: 0px 0px 20px rgba(0, 255, 0, 0.3);
+    box-shadow: 0px 0px 20px rgba(135, 0, 198, 0.3);
 }
 
 .job-title {

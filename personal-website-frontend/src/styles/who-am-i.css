@@ -42,7 +42,7 @@
 
 .who-container:hover {
     cursor: pointer;
-    box-shadow: 0px 0px 30px rgba(0, 255, 0, 0.3);
+    box-shadow: 0px 0px 30px rgba(135, 0, 198, 0.3);
 }
 
 .who-title {
@@ -63,7 +63,7 @@
 }
 
 .who-important {
-    color: green;
+    color: rgb(135, 0, 198);
 }
 
 .who-info img {
