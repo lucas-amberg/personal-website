@@ -12,30 +12,54 @@ function MySkills() {
                 <Fade direction='right' cascade>
                     <div className='skills'>
                         <div className='skills-title'>My Skills</div>
-                        <div className='great-with'>
-                            <div className='title'>Proficient In</div>
-                            <ul>
-                                <li>JavaScript</li>
-                                <li>React.js</li>
-                                <li>CSS (Tailwind & Vanilla)</li>
-                                <li>HTML</li>
-                                <li>Python</li>
-                                <li>Full Stack Web Development</li>
-                                <li>GitHub</li>
-                            </ul>
-                        </div>
-                        <div className='comfortable-with'>
-                            <div className='title'>Versed In</div>
-                            <ul>
-                                <li>Node.js</li>
-                                <li>C++</li>
-                                <li>Linux</li>
-                                <li>MongoDB</li>
-                                <li>RESTful APIs</li>
-                                <li>Express</li>
-                                <li>Next.js</li>
-                                <li>TypeScript</li>
-                            </ul>
+                        <div className='skills-sections-container'> {/* Holds all of the skill sections */}
+                            <div className='skill-section'>
+                                <div className='skill-section-title'>Languages</div>
+                                <ul>
+                                    <li>JavaScript</li>
+                                    <li>Python</li>
+                                    <li>C++</li>
+                                    <li>TypeScript</li>
+                                    <li>HTML/CSS</li>
+                                </ul>
+                            </div>
+                            <div className='skill-section'>
+                                <div className='skill-section-title'>Frameworks</div>
+                                <ul>
+                                    <li>React.js</li>
+                                    <li>Node.js</li>
+                                    <li>Tailwind CSS</li>
+                                    <li>Express.js</li>
+                                    <li>Next.js</li>
+                                </ul>
+                            </div>
+                            <div className='skill-section'>
+                                <div className='skill-section-title'>Developer Tools</div>
+                                <ul>
+                                    <li>Git</li>
+                                    <li>VS Code</li>
+                                    <li>Visual Studio</li>
+                                    <li>PyCharm</li>
+                                    <li>Linux OS</li>
+                                </ul>
+                            </div>
+                            <div className='skill-section'>
+                                <div className='skill-section-title'>Databases</div>
+                                <ul>
+                                    <li>MongoDB</li>
+                                    <li>PostgreSQL</li>
+                                </ul>
+                            </div>
+                            <div className='skill-section'>
+                                <div className='skill-section-title'>Concepts</div>
+                                <ul>
+                                    <li>RESTful APIs</li>
+                                    <li>Frontend Web Development</li>
+                                    <li>Backend Web Development</li>
+                                    <li>Full Stack Web Development</li>
+                                    <li>Data Structures</li>
+                                </ul>
+                            </div>
                         </div>
                         <div className='images'>
                             <Fade cascade direction='up' damping={0.2}>

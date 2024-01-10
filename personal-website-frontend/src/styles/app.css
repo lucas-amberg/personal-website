@@ -54,6 +54,19 @@ table {
     overflow-x: hidden;
     background-color: var(--dark-color);
     display: grid;
-		align-items: center;
-    grid-template-rows: 100vh 100vh 100vh 250vh 100vh;
+		place-items: center;
+    grid-template-rows: 100vh 100vh 175vh 250vh 100vh;
+}
+
+
+@media only screen and (max-height: 500px) {
+	.app-page {
+    grid-template-rows: 100vh 200vh 240vh 500vh 200vh !important;
+ }
+}
+
+@media only screen and (min-width: 768px) {
+	.app-page {
+    grid-template-rows: 100vh 100vh 120vh 250vh 100vh;
+}
 }
