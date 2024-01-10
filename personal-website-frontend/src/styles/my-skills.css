@@ -32,8 +32,6 @@
     align-items: center;
     justify-content: center;
     gap: 20px;
-    /* grid-template-columns: 150px 150px;
-    grid-template-rows: 100px 300px 100px; */
     grid-template-areas: "header header"
                         "great-with comfortable-with"
                         "images images";
@@ -48,8 +46,8 @@
 
 .skills-sections-container {
     display: grid;
-    grid-template-columns: 50% 1fr;
-    grid-template-rows: 50% 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     align-items: center;
     justify-items: center;
 }
@@ -59,14 +57,14 @@
     box-shadow: 0px 0px 30px rgba(135, 0, 198, 0.3);
 }
 
-.title {
+.skill-section-title {
     color: rgba(135, 0, 198, 1);
     font-family: "OpenSansBold";
     font-size: 1.2rem;
     width: 120px;
 }
 
-.grid-area1 {
+.skill-section {
     font-size: 1rem;
     text-align: center;
     font-family: "OpenSansMedium";
@@ -76,17 +74,7 @@
     gap: 20px;
     padding: 10px;
     width: 120px;
-}
-
-.grid-area2 {
-    font-size: 1rem;
-    text-align: center;
-    font-family: "OpenSansMedium";
-    color: var(--light-color);
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
+} 
 
 .skills-title {
     font-family: "OpenSansBold";
@@ -97,11 +85,10 @@
 
 
 
-.comfortable-with ul,
-.great-with ul {
+.skill-section > ul {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
 }
 
 .images {
