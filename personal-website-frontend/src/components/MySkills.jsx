@@ -13,8 +13,8 @@ function MySkills() {
                     <div className='skills'>
                         <div className='skills-title'>My Skills</div>
                         <div className='skills-sections-container'> {/* Holds all of the skill sections */}
-                            <div className='great-with'>
-                                <div className='title'>Proficient In</div>
+                            <div className='grid-area1'>
+                                <div className='title'>Languages</div>
                                 <ul>
                                     <li>JavaScript</li>
                                     <li>React.js</li>
@@ -25,7 +25,7 @@ function MySkills() {
                                     <li>GitHub</li>
                                 </ul>
                             </div>
-                            <div className='comfortable-with'>
+                            <div className='grid-area1'>
                                 <div className='title'>Versed In</div>
                                 <ul>
                                     <li>Node.js</li>
@@ -38,7 +38,7 @@ function MySkills() {
                                     <li>TypeScript</li>
                                 </ul>
                             </div>
-                            <div className='comfortable-with'>
+                            <div className='grid-area1'>
                                 <div className='title'>Versed In</div>
                                 <ul>
                                     <li>Node.js</li>
@@ -51,7 +51,7 @@ function MySkills() {
                                     <li>TypeScript</li>
                                 </ul>
                             </div>
-                            <div className='comfortable-with'>
+                            <div className='grid-area1'>
                                 <div className='title'>Versed In</div>
                                 <ul>
                                     <li>Node.js</li>

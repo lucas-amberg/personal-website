@@ -24,7 +24,6 @@
     grid-template-columns: 100vw;
     grid-template-rows: 100vh;
     place-items: center;
-   
 }
 
 .skills {
@@ -40,24 +39,19 @@
                         "images images";
     background-color: var(--third-color);
     justify-items: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 10px;
     border-radius: 20px;
     font-family: "OpenSansBold";
     transition: all ease 0.4s;
+    max-width: 300px;
 }
 
 .skills-sections-container {
-    display: flex;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.skills-sections-container > div {
-    width: 50%;
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    grid-template-rows: 50% 1fr;
+    align-items: center;
+    justify-items: center;
 }
 
 .skills:hover {
@@ -69,10 +63,22 @@
     color: rgba(135, 0, 198, 1);
     font-family: "OpenSansBold";
     font-size: 1.2rem;
+    width: 120px;
 }
 
-.great-with {
-    grid-area: great-with;
+.grid-area1 {
+    font-size: 1rem;
+    text-align: center;
+    font-family: "OpenSansMedium";
+    color: var(--light-color);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    width: 120px;
+}
+
+.grid-area2 {
     font-size: 1rem;
     text-align: center;
     font-family: "OpenSansMedium";
@@ -83,23 +89,13 @@
 }
 
 .skills-title {
-    grid-area: header;
     font-family: "OpenSansBold";
     color: var(--light-color);
     font-size: 2rem;
     margin-top: 20px;
 }
 
-.comfortable-with {
-    grid-area: comfortable-with;
-    font-size: 1rem;
-    text-align: center;
-    font-family: "OpenSansMedium";
-    color: var(--light-color);
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
+
 
 .comfortable-with ul,
 .great-with ul {
