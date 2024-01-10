@@ -55,18 +55,18 @@ table {
     background-color: var(--dark-color);
     display: grid;
 		place-items: center;
-    grid-template-rows: 100vh 100vh 175vh 250vh 100vh;
+    grid-template-rows: 100vh 100vh 75vh 175vh 250vh 100vh;
 }
 
 
 @media only screen and (max-height: 500px) {
 	.app-page {
-    grid-template-rows: 100vh 200vh 240vh 500vh 200vh !important;
+    grid-template-rows: 100vh 100vh 100vh 240vh 500vh 200vh !important;
  }
 }
 
 @media only screen and (min-width: 768px) {
 	.app-page {
-    grid-template-rows: 100vh 100vh 120vh 250vh 100vh;
+    grid-template-rows: 100vh 100vh 75vh 120vh 250vh 100vh;
 }
 }
