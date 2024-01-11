@@ -8,7 +8,7 @@ export default function Resume() {
   return(
     <div className="resume">
       <Fade>
-        <h1>View my Resume:</h1>
+        <h1>View my Resume</h1>
         <a href={resume} rel="noreferrer" target="_blank">Resume</a>
       </Fade>
     </div>
