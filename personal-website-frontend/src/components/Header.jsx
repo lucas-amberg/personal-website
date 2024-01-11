@@ -1,22 +1,22 @@
 import '../styles/header.css'
 import logo from '/logo.jpg'
-import { Fade } from 'react-awesome-reveal'
+import { Fade, AttentionSeeker } from 'react-awesome-reveal'
 import { useState, useEffect } from 'react';
 
 //This is the header component it is the first thing a user sees on
 //the page and is at the top of all other components
 function Header() {
 
-    const [showScroll, setShowScroll] = useState('show-scroll')
+    const [showScroll, setShowScroll] = useState('hide-scroll')
 
     useEffect(() => {
-        //Implementing the setInterval method
+        //Rotates between showing the scroll animation and hiding it every 5 seconds
         const interval = setInterval(() => {
             showScroll === 'show-scroll' ?
                 setShowScroll('hide-scroll') :
                 setShowScroll('show-scroll');
-                if(window.scrollY + window.innerHeight >= 0.9 * document.body.scrollHeight) {
-                    setShowScroll('hide-scroll');
+                if(window.scrollY + window.innerHeight >= 0.2 * document.body.scrollHeight) {
+                    setShowScroll('hide-scroll'); //Hides the scroll indicator if the user is at the bottom
                 }
         }, 5000);
  
@@ -38,7 +38,9 @@ function Header() {
             </Fade>
             <div>
                 <div className={`${showScroll} scroll-down-container`}>
-                    <div className='scroll-text'>Scroll Down</div>
+                    <AttentionSeeker delay={8000} effect='wobble'>
+                        <div className='scroll-text'>↓</div>
+                    </AttentionSeeker>
                 </div>
             </div>
         </div>
