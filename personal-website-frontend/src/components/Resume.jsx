@@ -9,7 +9,7 @@ export default function Resume() {
     <div className="resume">
       <Fade>
         <h1>View my Resume</h1>
-        <a href={resume} rel="noreferrer" target="_blank">Resume</a>
+        <a href={resume} rel="noreferrer" target="_blank">Click Here</a>
       </Fade>
     </div>
   )
