@@ -2,6 +2,7 @@
     --light-color: #c1c1c1;
     --third-color: #222222;
     --dark-color: #111111;
+    background-color: var(--dark-color);
 }
 
 @font-face {
@@ -45,6 +46,41 @@
 
 .logo-item img {
     width: 80px;
+}
+
+.scroll-down-container {
+    color: var(--light-color);
+    font-family: "OpenSansBold";
+    font-size: 1rem;
+    position: fixed;
+    bottom: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    opacity: 1;
+}
+
+.scroll-text {
+    width: 50px;
+    text-align: center;
+    border: 2px solid rgba(135, 0, 198, 1);
+    background-color: var(--dark-color);
+    box-shadow: 0px 0px 30px rgba(135, 0, 198, 0.2);
+    padding: 15px;
+    border-radius: 12px;
+}
+
+.hide-scroll {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s linear 300ms, opacity 300ms;
+  }
+.show-scroll {
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s linear 0s, opacity 300ms;
 }
 
 @media only screen and (min-width: 480px) {
