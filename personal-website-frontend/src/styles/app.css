@@ -50,6 +50,8 @@ table {
     --dark-color: #111111;
 }
 
+/*This sets up the grid for the page, all are just rows of differing
+length depending on the size of the content*/
 .app-page {
     overflow-x: hidden;
     background-color: var(--dark-color);

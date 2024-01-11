@@ -5,8 +5,12 @@ import githubLogo from '../assets/images/logos/github.png'
 import emailLogo from '../assets/images/logos/email.svg'
 
 
+//Each contact item displays an icon, a title for the link, and a url to be used.
+//Each contact item can be clicked on to redirect to a different page
 function ContactItem({image, platform, link, direction, type}) {
 
+    //This section of code will check to see if the contact item is an email or
+    //a website if it a website then it will use a mailto: instead of https://
     let realLink = `https://${link}`
     if (type === 'email') {
         realLink = `mailto:${link}`
@@ -14,7 +18,7 @@ function ContactItem({image, platform, link, direction, type}) {
 
     return(
         <Fade direction={direction}>
-            <a href={realLink} target="_blank" className='contact-item'>
+            <a href={realLink} rel="noreferrer" target="_blank" className='contact-item'>
                 <img src={image} alt={platform} />
                 <div className='contact-info'>
                     <div>{platform}</div>
@@ -25,6 +29,7 @@ function ContactItem({image, platform, link, direction, type}) {
     )
 }
 
+//This stores all of the contact items to be used on the app component
 function Contact() {
     return(
         <Fade>

@@ -1,8 +1,9 @@
 import '../styles/header.css'
 import logo from '/logo.jpg'
 import { Fade } from 'react-awesome-reveal'
-import {useState, useEffect} from 'react'
 
+//This is the header component it is the first thing a user sees on
+//the page and is at the top of all other components
 function Header() {
 
 

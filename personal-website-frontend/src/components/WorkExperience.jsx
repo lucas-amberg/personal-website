@@ -2,6 +2,9 @@ import {Fade} from 'react-awesome-reveal'
 import '../styles/work-experience.css'
 import polaLogo from '../assets/images/logos/pola-logo.jpg'
 
+//This component is currently only used once because I only have one job experience
+//of note to put on my portfolio but it contains a section for job title,
+//company, dates worked, an image/logo, and a description of what I did.
 function Job({direction, title, img, business, location, startDate, endDate, description, skills, alt}) {
     return(
         <Fade direction={direction}>
@@ -24,13 +27,17 @@ function Job({direction, title, img, business, location, startDate, endDate, des
     )
 }
 
+//This is the descriptions for the job components
 const polaDescription = "Completed 100+ repairs for PC's, laptops, printers, and network devices, reducing downtime and ensuring smooth operations. Streamlined application and computer setup process through the implementation of customized Batch files and command line operations, resulting in a 30% reduction in overall setup time. Collaborated with co-workers to solve complex hardware/software issues on a daily basis."
 
+//This is the workexperience component and it stores all of the jobs I have listed under my work experience
 function WorkExperience() {
     return(
         <Fade>
             <div className='work-experience-container'>
-                <h1>Work Experience</h1>\
+                <h1>Work Experience</h1>
+
+                {/*Job #1 Port of LA*/}
                 <Job title='Information Technology Student Specialist'
                 business={'Port of Los Angeles'}
                 img={polaLogo}

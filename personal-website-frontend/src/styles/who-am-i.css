@@ -26,6 +26,7 @@
     place-items: center;
 }
 
+/* The actual box for the description and such*/
 .who-container {
     display: grid;
     grid-template-columns: 265px;

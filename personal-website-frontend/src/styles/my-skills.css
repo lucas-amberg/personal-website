@@ -19,6 +19,7 @@
     src: url('../assets/fonts/Open_sans/OpenSans_Condensed-Light.ttf');
 }
 
+/* HOLDS THE SKILLS BOX*/
 .skills-container {
     display: grid;
     grid-template-columns: 100vw;
@@ -26,6 +27,7 @@
     place-items: center;
 }
 
+/* THE SKILLS BOX ITSELF*/
 .skills {
     display: flex;
     flex-direction: column;
@@ -44,6 +46,7 @@
     max-width: 300px;
 }
 
+/*HOLDS THE ACTUAL SKILL SECTIONS*/
 .skills-sections-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -64,6 +67,7 @@
     width: 120px;
 }
 
+/*EACH INDIVIDUAL SKILL SECTION*/
 .skill-section {
     font-size: 1rem;
     text-align: center;
@@ -83,8 +87,7 @@
     margin-top: 20px;
 }
 
-
-
+/* The list of SKILLs*/
 .skill-section > ul {
     display: flex;
     flex-direction: column;
