@@ -47,6 +47,36 @@
     width: 80px;
 }
 
+.scroll-down-container {
+    color: var(--light-color);
+    font-family: "OpenSansBold";
+    font-size: 1rem;
+    position: fixed;
+    bottom: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    opacity: 1;
+}
+
+.scroll-text {
+    width: 250px;
+    text-align: center;
+}
+
+.hide-scroll {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s linear 300ms, opacity 300ms;
+  }
+.show-scroll {
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s linear 0s, opacity 300ms;
+}
+
 @media only screen and (min-width: 480px) {
     .logo-item {
         width: 400px;

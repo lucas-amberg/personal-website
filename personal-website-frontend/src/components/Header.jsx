@@ -7,18 +7,24 @@ import { useState, useEffect } from 'react';
 //the page and is at the top of all other components
 function Header() {
 
-    const [showScroll, setShowScroll] = useState(false)
+    const [showScroll, setShowScroll] = useState('show-scroll')
 
     useEffect(() => {
         //Implementing the setInterval method
         const interval = setInterval(() => {
-            setShowScroll(!showScroll);
+            showScroll === 'show-scroll' ?
+                setShowScroll('hide-scroll') :
+                setShowScroll('show-scroll');
+                if(window.scrollY + window.innerHeight >= 0.9 * document.body.scrollHeight) {
+                    setShowScroll('hide-scroll');
+                }
         }, 5000);
  
         //Clearing the interval
         return () => clearInterval(interval);
     }, [showScroll]);
 
+    
 
     return(
         <div className='header'>
@@ -31,12 +37,9 @@ function Header() {
                 </div>
             </Fade>
             <div>
-                {showScroll ? 
-                <div className='scroll-down-text'>
-                    <Fade>
-                        <div>Scroll Down</div>
-                    </Fade>
-                </div> : ""}
+                <div className={`${showScroll} scroll-down-container`}>
+                    <div className='scroll-text'>Scroll Down</div>
+                </div>
             </div>
         </div>
     )
