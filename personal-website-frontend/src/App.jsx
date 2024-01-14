@@ -1,4 +1,5 @@
 import './styles/app.css'
+import { Fade } from 'react-awesome-reveal'
 import Header from './components/Header'
 import WhoAmI from './components/WhoAmI'
 import MySkills from './components/MySkills'
