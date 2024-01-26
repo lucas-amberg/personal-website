@@ -19,6 +19,7 @@ import Resume from './components/Resume'
 //Work experience list
 //Contact info
 function App() {
+
   return (
     <div className='app-page'>
       <Header/>
