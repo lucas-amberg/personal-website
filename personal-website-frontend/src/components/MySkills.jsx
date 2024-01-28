@@ -74,6 +74,14 @@ function MySkills() {
                                     <li>Data Structures</li>
                                 </ul>
                             </div>
+
+                            {/* Libraries section */}
+                            {/* <div className='skill-section'>
+                                <div className='skill-section-title'>Libraries</div>
+                                <ul>
+                                    <li>PyTorch</li>
+                                </ul>
+                            </div> */}
                         </div>
 
                         {/*Logos for tech I know*/}
