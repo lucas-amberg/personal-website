@@ -57,7 +57,7 @@ length depending on the size of the content*/
     background-color: var(--dark-color);
     display: grid;
 		place-items: center;
-    grid-template-rows: 100vh 120vh 75vh 75vh 175vh 250vh 100vh;
+    grid-template-rows: 100vh 120vh 100vh 75vh 175vh 250vh 100vh;
 }
 
 

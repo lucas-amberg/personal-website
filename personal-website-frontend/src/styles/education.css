@@ -65,7 +65,7 @@
   border-radius: 9px;
   position: absolute;
   right: 0px;
-  top: 0px;
+  top: 22px;
 }
 
 .education-major {
@@ -97,6 +97,12 @@
 @media only screen and (min-width: 480px) {
   .education-item {
       width: 400px;
+  }
+}
+
+@media only screen and (min-width: 520px) {
+  .education-title img {
+    top: 0px;
   }
 }
 
