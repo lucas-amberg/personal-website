@@ -1,0 +1,111 @@
+:root {
+  --light-color: #c1c1c1;
+  --third-color: #222222;
+  --dark-color: #111111;
+}
+
+@font-face {
+  font-family: "OpenSansBold";
+  src: url('../assets/fonts/Open_sans/OpenSans-Bold.ttf');
+}
+
+@font-face {
+  font-family: "OpenSansMedium";
+  src: url('../assets/fonts/Open_sans/OpenSans-Medium.ttf');
+}
+
+@font-face {
+  font-family: "OpenSansLight";
+  src: url('../assets/fonts/Open_sans/OpenSans_Condensed-Light.ttf');
+}
+
+.education-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.education-item {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--third-color);
+  border-radius: 20px;
+  padding: 15px;
+  width: 350px;
+  transition: all ease 0.4s;
+}
+
+.education-container h1 {
+  color: var(--light-color);
+  font-family: "OpenSansBold";
+  font-size: 2rem;
+}
+
+.education-name {
+  font-size: 1.05rem;
+  font-family: "OpenSansBold";
+  color: var(--light-color);
+} 
+
+.education-title div {
+  color: var(--light-color);
+  font-family: "OpenSansBold";
+}
+
+.education-title {
+  position: relative;
+}
+
+.education-title img {
+  width: 65px;
+  height: 70px;
+  border-radius: 9px;
+  position: absolute;
+  right: 0px;
+  top: 22px;
+}
+
+.education-major {
+  font-size: 0.8rem;
+  font-family: 'OpenSansMedium' !important;
+}
+
+.education-title-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.location-date {
+  color: var(--light-color);
+  font-family: "OpenSansMedium";
+  font-size: 0.9rem;
+  padding-top: 7px;
+  padding-bottom: 5px;
+}
+
+.education-description {
+  color: var(--light-color);
+  font-family: "OpenSansMedium";
+  font-size: 0.8rem;
+  padding: 5px;
+}
+
+@media only screen and (min-width: 480px) {
+  .education-item {
+      width: 400px;
+  }
+}
+
+@media only screen and (min-width: 520px) {
+  .education-title img {
+    top: 0px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* Add your styles here */
+}

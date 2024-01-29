@@ -7,6 +7,7 @@ import Portfolio from './components/Portfolio'
 import WorkExperience from './components/WorkExperience'
 import Contact from './components/Contact'
 import Resume from './components/Resume'
+import Education from './components/Education'
 
 
 //This component is the main page of the site, it has the following:
@@ -26,6 +27,7 @@ function App() {
       <WhoAmI/>
       <Resume/>
       <MySkills/>
+      <Education/>
       <Portfolio/>
       <WorkExperience/>
       <Contact/>
