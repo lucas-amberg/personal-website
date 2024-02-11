@@ -68,6 +68,7 @@
 .job-title div {
     color: var(--light-color);
     font-family: "OpenSansBold";
+    width: 330px;
 }
 
 .job-title-desc {
