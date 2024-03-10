@@ -28,7 +28,7 @@ function Header() {
 
     return(
         <div className='header'>
-            <Fade>
+            <Fade triggerOnce >
                 <div className='logo-item'>
                     <img src={logo} alt="Lucas Amberg Logo" />
                     <div>

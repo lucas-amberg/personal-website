@@ -7,7 +7,7 @@ import '../styles/resume.css'
 export default function Resume() {
   return(
     <div className="resume">
-      <Fade>
+      <Fade triggerOnce >
         <h1>View my Resume</h1>
         <a href={resume} rel="noreferrer" target="_blank">Click Here</a>
       </Fade>

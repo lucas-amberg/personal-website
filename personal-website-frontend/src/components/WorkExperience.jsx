@@ -8,7 +8,7 @@ import hireBirdLogo from '../assets/images/logos/hirebird-logo.jpg'
 //company, dates worked, an image/logo, and a description of what I did.
 function Job({direction, title, img, business, location, startDate, endDate, description, skills, alt}) {
     return(
-        <Fade direction={direction}>
+        <Fade triggerOnce  direction={direction}>
             <div className='job-item'>
                 <div className='job-title'>
                     <div className='job-title-desc'>
@@ -35,7 +35,7 @@ const hirebirdDescription = "Engineered a full stack website using Next.js and T
 //This is the workexperience component and it stores all of the jobs I have listed under my work experience
 function WorkExperience() {
     return(
-        <Fade>
+        <Fade triggerOnce >
             <div className='work-experience-container'>
                 <h1>Work Experience</h1>
 

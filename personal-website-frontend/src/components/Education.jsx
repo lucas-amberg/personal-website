@@ -4,7 +4,7 @@ import csulbLogo from '../assets/images/logos/csulb-logo.png'
 
 function EducationItem({direction, title, school, location, endDate, GPA, major, courses, alt, img, memberOf, deansList, presidentsList}) {
   return(
-    <Fade direction={direction}>
+    <Fade triggerOnce  direction={direction}>
       <div className='education-item'>
         <div className='education-title'>
           <div className='education-title-desc'>
@@ -31,7 +31,7 @@ function EducationItem({direction, title, school, location, endDate, GPA, major,
 export default function Education() {
   return(
     <div className="education-container">
-      <Fade>
+      <Fade triggerOnce >
         <h1>Education</h1>
         <EducationItem 
           title={'California State University, Long Beach'} 

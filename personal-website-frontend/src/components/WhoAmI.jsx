@@ -9,7 +9,7 @@ import me from '../assets/images/me.jpg'
 function WhoAmI() {
     return(
         <div className="who-am-i">
-                <Fade direction='left' cascade>
+                <Fade triggerOnce  direction='left' cascade>
                     <div className="who-container">
                         <div className="who-title">Who Am I?</div>
                         <div className="who-info">

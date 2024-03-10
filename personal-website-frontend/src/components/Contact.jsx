@@ -17,7 +17,7 @@ function ContactItem({image, platform, link, direction, type}) {
     }
 
     return(
-        <Fade direction={direction}>
+        <Fade triggerOnce direction={direction}>
             <a href={realLink} rel="noreferrer" target="_blank" className='contact-item'>
                 <img src={image} alt={platform} />
                 <div className='contact-info'>
@@ -32,7 +32,7 @@ function ContactItem({image, platform, link, direction, type}) {
 //This stores all of the contact items to be used on the app component
 function Contact() {
     return(
-        <Fade>
+        <Fade triggerOnce >
             <div className='contact-container'>
                 <h1>Contact Me</h1>
                 <ContactItem direction={'left'}

@@ -13,7 +13,7 @@ import cppImg from '../assets/images/logos/cpp.png'
 function MySkills() {
     return(
         <div className='skills-container'>
-                <Fade direction='right' cascade>
+                <Fade triggerOnce  direction='right' cascade>
                     <div className='skills'>
                         <div className='skills-title'>My Skills</div> {/*Header*/}
                         <div className='skills-sections-container'> {/* Holds all of the skill sections */}
@@ -86,7 +86,7 @@ function MySkills() {
 
                         {/*Logos for tech I know*/}
                         <div className='images'>
-                            <Fade cascade direction='up' damping={0.2}>
+                            <Fade triggerOnce  cascade direction='up' damping={0.2}>
                                 <img src={reactImg} alt='React Developer' />
                                 <img src={pythonImg} alt="Python Developer" />
                                 <img src={jsImg} alt="JavaScript Developer" />
