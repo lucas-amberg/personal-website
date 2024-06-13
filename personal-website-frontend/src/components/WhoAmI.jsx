@@ -17,7 +17,7 @@ function WhoAmI() {
                             &nbsp;and I am currently a <span className="who-important">Sophomore</span> studying 
                             <span className="who-important"> Computer Science </span>at
                             <span className="who-important"> California State University, Long Beach</span>.</div>
-                            <div>I have been coding for 4 years, since my Sophomore year of high school. When I am not
+                            <div>I have been coding for 5 years, since my Sophomore year of high school. When I am not
                                 at school, I am based in <span className="who-important">San Diego County, California</span>.
                             </div>
                             <img src={me} alt="A picture of me" />

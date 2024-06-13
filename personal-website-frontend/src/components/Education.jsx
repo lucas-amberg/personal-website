@@ -40,11 +40,11 @@ export default function Education() {
           endDate={'Expected May 2026'} 
           major={'B.S. Computer Science'} 
           skills={'Test'} 
-          GPA={'GPA: 3.723'} 
+          GPA={'GPA: 3.794'} 
           courses={'Relevant Coursework: Data Structures, Algorithms, Object Oriented Application Development'} 
-          memberOf={'Member of Kappa Sigma Fraternity, Google Developer Student Club, and Association for Computing Machinery'} 
+          memberOf={'Member of Kappa Sigma Fraternity, Google Developer Student Club, Association for Computing Machinery, AI Research Club, Virtual Reality Operations Club'} 
           deansList={'Dean\'s Honor List (Fall 2022, Spring 2023)'} 
-          presidentsList={'President\'s Honor List (Fall 2023)'} 
+          presidentsList={'President\'s Honor List (Fall 2023, Spring 2024)'} 
           direction={'right'}
         />
       </Fade>

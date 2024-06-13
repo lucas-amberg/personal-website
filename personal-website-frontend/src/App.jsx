@@ -28,8 +28,8 @@ function App() {
       <Resume/>
       <MySkills/>
       <Education/>
-      <Portfolio/>
       <WorkExperience/>
+      <Portfolio/>
       <Contact/>
     </div>
   )

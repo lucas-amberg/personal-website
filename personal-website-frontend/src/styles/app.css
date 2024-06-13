@@ -57,13 +57,13 @@ length depending on the size of the content*/
     background-color: var(--dark-color);
     display: grid;
 		place-items: center;
-    grid-template-rows: 100vh 120vh 100vh 75vh 175vh 250vh 150vh 100vh;
+    grid-template-rows: 100vh 120vh 100vh 200vh 175vh 200vh 250vh 100vh;
 }
 
 
 @media only screen and (max-height: 500px) {
 	.app-page {
-    grid-template-rows: 100vh 120vh 100vh 100vh 240vh 500vh 200vh 200vh !important;
+    grid-template-rows: 100vh 120vh 100vh 150vh 240vh 265vh 500vh 200vh !important;
  }
 }
 

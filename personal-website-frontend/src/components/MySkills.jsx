@@ -35,10 +35,11 @@ function MySkills() {
                                 <div className='skill-section-title'>Frameworks</div>
                                 <ul>
                                     <li>React.js</li>
-                                    <li>Node.js</li>
+                                    <li>Next.js</li>
+                                    <li>React Native</li>
                                     <li>Tailwind CSS</li>
                                     <li>Express.js</li>
-                                    <li>Next.js</li>
+                                    <li>Node.js</li>
                                 </ul>
                             </div>
 
@@ -48,6 +49,10 @@ function MySkills() {
                                 <ul>
                                     <li>Git</li>
                                     <li>VS Code</li>
+                                    <li>Jira</li>
+                                    <li>AWS</li>
+                                    <li>Figma</li>
+                                    <li>Pulumi</li>
                                     <li>Visual Studio</li>
                                     <li>PyCharm</li>
                                     <li>Linux OS</li>
@@ -58,6 +63,8 @@ function MySkills() {
                             <div className='skill-section'>
                                 <div className='skill-section-title'>Databases</div>
                                 <ul>
+                                    <li>Neo4j</li>
+                                    <li>Cypher QL</li>
                                     <li>MongoDB</li>
                                     <li>PostgreSQL</li>
                                 </ul>
@@ -67,11 +74,14 @@ function MySkills() {
                             <div className='skill-section'>
                                 <div className='skill-section-title'>Concepts</div>
                                 <ul>
-                                    <li>RESTful APIs</li>
+                                    <li>REST APIs</li>
                                     <li>Frontend Web Development</li>
                                     <li>Backend Web Development</li>
                                     <li>Full Stack Web Development</li>
                                     <li>Data Structures</li>
+                                    <li>Algorithms</li>
+                                    <li>Agile Methodologies</li>
+                                    <li>Object Oriented Programming</li>
                                 </ul>
                             </div>
 

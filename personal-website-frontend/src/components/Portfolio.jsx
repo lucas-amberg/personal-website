@@ -13,7 +13,7 @@ import aiConvoImage from '../assets/images/portfolio-images/ai-conversation.png'
 function PortfolioItem({img, title, description, tech, alt, link, dir}) {
 
     return(
-        <Fade direction={dir}>
+        <Fade direction={dir} triggerOnce>
             <a href={`https://${link}`} target="_blank" rel='noreferrer' className='portfolio-item'>
                 <img src={img} alt={alt} />
                 <div className='portfolio-info'>
